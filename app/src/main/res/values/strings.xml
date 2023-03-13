@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BIN</string>
+    <string name="bin">BIN</string>
+    <string name="send">Send</string>
+    <string name="scheme_network">SCHEME / NETWORK</string>
+    <string name="brand">BRAND</string>
+    <string name="card_number">CARD NUMBER</string>
+    <string name="length">LENGTH</string>
+    <string name="luhn">LUHN</string>
+    <string name="type">TYPE</string>
+    <string name="prepaid">PREPAID</string>
+    <string name="country">COUNTRY</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="bank">BANK</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="clear_history">Clear history</string>
+    <string name="api_url">https://lookup.binlist.net/</string>
+</resources>
