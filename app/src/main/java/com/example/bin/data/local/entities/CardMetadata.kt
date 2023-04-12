@@ -1,7 +1,8 @@
-package com.example.bin
+package com.example.bin.data.local.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+
 
 @Entity(tableName = "card_metadata")
 data class CardMetadata(
@@ -16,18 +17,10 @@ data class CardMetadata(
     val type: String? = null,
     val prepaid: Boolean? = null,
     val country: String? = null,
-    val latitude: Int? = null,
-    val longitude: Int? = null,
+    val latitude: Double? = null,
+    val longitude: Double? = null,
     val bankName: String? = null,
     val city: String? = null,
     val bankURL: String? = null,
-    val bankPhoneNumber: String? = null
-) {
-    fun booleanToString(boolean: Boolean?): String {
-        return when (boolean) {
-            true -> "Yes"
-            false -> "No"
-            else -> ""
-        }
-    }
-}
+    val bankPhoneNumber: String? = null,
+)
